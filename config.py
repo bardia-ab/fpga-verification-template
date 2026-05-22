@@ -1,8 +1,9 @@
 from pathlib import Path
+from scripts.env import env_path
 
-SIM_LIB_PATH = Path("/home/user/compile_simlib/questa")
-UVVM_DIR = Path("/home/user/UVVM/UVVM")
-XILINX_GLBL_DIR = Path("/tools/Xilinx/2025.1/data/verilog/src")
+COMPILED_SIM_LIB_DIR = env_path("COMPILED_SIM_LIB_DIR")
+UVVM_DIR = env_path("UVVM_DIR")
+XILINX_GLBL_DIR = env_path("XILINX_GLBL_DIR") / "data" / "verilog" / "src"
 
 MODULE_NAME = ""
 LIB_NAME = "xil_defaultlib"

@@ -1,1 +1,5 @@
 .venv
+vivado_project/*
+.env
+.Xil
+*__pycache__

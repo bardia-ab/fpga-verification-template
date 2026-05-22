@@ -37,7 +37,7 @@ add_uvvm_libraries(vu, UVVM_DIR, UVVM_LIBRARIES)
 # -----------------------------------------------------------------------------
 generate_compile_order(PROJECT_FILE, COMPILE_ORDER_FILE)
 
-add_standard_libraries(vu, SIM_LIB_PATH)
+add_standard_libraries(vu, COMPILED_SIM_LIB_DIR)
 add_from_compile_order_file(vu, COMPILE_ORDER_FILE)
 
 # -----------------------------------------------------------------------------
