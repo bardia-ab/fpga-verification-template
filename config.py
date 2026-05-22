@@ -9,7 +9,7 @@ LIB_NAME = "xil_defaultlib"
 
 ROOT_DIR = Path(__file__).parent
 
-PROJECT_FILE = ROOT_DIR / ".xpr"
+PROJECT_FILE = ROOT_DIR / "vivado_project" / ".xpr"
 SRC_DIR = ROOT_DIR / "src"
 TB_DIR = ROOT_DIR / "sim"
 IP_DIR = ROOT_DIR / "ip"
