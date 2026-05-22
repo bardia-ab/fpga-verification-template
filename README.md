@@ -24,9 +24,9 @@ This project provides a structured approach for creating verification tests usin
 # Configuration
 1. An environment file must be created in the root directory. This file contains the path to the followinf directories:
 ```
-UVVM_DIR=/home/bb0038/UVVM/UVVM
-COMPILED_SIM_LIB_DIR=/home/bb0038/compile_simlib/questa
-XILINX_GLBL_DIR=/home/bb0038/Xilinx/2025.1
+UVVM_DIR=/home/user/UVVM/UVVM
+COMPILED_SIM_LIB_DIR=/home/user/compile_simlib/questa
+XILINX_GLBL_DIR=/home/user/Xilinx/2025.1
 ```
 2. The following variables in the `config.py` must be set:
     - MODULE_NAME
