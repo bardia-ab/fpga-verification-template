@@ -1,5 +1,6 @@
 .venv
 vivado_project/*
+!vivado_project/.gitkeep
 .env
 .Xil
 *__pycache__
